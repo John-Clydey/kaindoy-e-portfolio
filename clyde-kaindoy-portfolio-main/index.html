@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clyde Portfolio - Home</title>
+    <link rel="shortcut icon" href="/img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    /* From Uiverse.io by lowa2006 */ 
+.card {
+  width: 17em;
+  height: 22.5em;
+  background: #171717;
+  transition: 1s ease-in-out;
+  clip-path: polygon(
+    30px 0%,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(100% - 30px) 100%,
+    0 100%,
+    0% 30px
+  );
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card span {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: 1em;
+}
+
+.card .info {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 0.72em;
+  margin: 1em;
+}
+
+.card .img {
+  width: 4.8em;
+  height: 4.8em;
+  background: white;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.card .share {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.card a {
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.card a:hover {
+  color: red;
+}
+
+.card button {
+  padding: 0.8em 1.7em;
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: 0.4s ease-in-out;
+}
+
+.card button:hover {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+</style>
+<body class="fade" id="fade">
+    <header class="header">
+        <div class="">
+            <img src="img/favicon.jpg" alt="" class="fav">
+            <a href="index.html" class="logo">John Clyde Kaindoy</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="experience.html">Experience</a>
+            <a href="project.html">Project</a>
+            <a href="skills.html">Skills</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm <h1 style="color: #ec4899;">John Clyde Kaindoy</h1></h1>
+            <h3 style="color: #16f2b3;">Mechanical Engineering Student</h3>
+            <p>Proficient in SolidWorks and AutoCAD with a strong foundation in basic programming. Demonstrates hands-on experience in workshop, machining, and fabrication processes, complemented by skills in basic electrical and electronics. Successfully contributed to various group projects, showcasing collaborative and technical abilities with competence in diverse engineering tasks.</p>
+            <div class="btn-box">
+                <a href="about.html">About me</a>
+            </div>
+        </div>
+        <img src="img/favicon.jpg" alt="" class="wallpaper">
+    </section>
+</body>
+
+</html>
