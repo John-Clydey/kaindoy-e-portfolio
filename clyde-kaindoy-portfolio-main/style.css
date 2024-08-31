@@ -188,7 +188,7 @@ body {
     border-color: rgb(5, 64, 80);
 }
 
-.proj-title p {
+.proj-title h3 {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 10px;
@@ -202,7 +202,7 @@ body {
 }
 
 .project-img {
-    max-width: 100%;
+    max-width: 65%;
     height: auto;
     border-radius: 10px;
 }
